@@ -1,0 +1,24 @@
+#hero {
+  background: linear-gradient(#87f4b5, #93cbf1);
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3.5rem;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+}
+#about {
+  background: linear-gradient(#93cbf1, #87f4b5);
+}
+#skills {
+  background: linear-gradient(#87f4b5, #93cbf1);
+}
+#projects {
+  background: linear-gradient(#93cbf1, #87f4b5);
+}
