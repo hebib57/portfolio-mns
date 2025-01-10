@@ -1,5 +1,11 @@
+.navbar {
+  background: #0f0f0f;
+  box-shadow: 0 1px 0 #ffffff;
+}
+
 #hero {
-  background: linear-gradient(#87f4b5, #93cbf1);
+  background: #0f0f0f;
+  color: #ffffff;
 }
 h1 {
   font-family: Arial, Helvetica, sans-serif;
@@ -9,19 +15,73 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
 }
-h3 {
-  text-align: center;
+
+h5.review-stat {
+  font-size: 1.2rem;
+  font-weight: 200;
 }
+
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.3rem;
 }
-/* #about {
-  background: linear-gradient(#93cbf1, #87f4b5);
-} */
+.separator {
+  height: 10px;
+  background: linear-gradient(to top, #ffffff, #fbc634);
+}
+.separator2 {
+  height: 10px;
+  background: linear-gradient(to top, #fbc634, #ffffff);
+}
+
 #skills {
-  background: linear-gradient(#87f4b5, #93cbf1);
+  background: #0f0f0f;
+  color: #ffffff;
 }
 #projects {
-  background: linear-gradient(#93cbf1, #87f4b5);
+  background: #ffffff;
+  color: #0f0f0f;
+}
+
+.height-100 .card {
+  width: 380px;
+  border: none;
+  height: 280px;
+}
+
+.ratings {
+  margin-right: 10px;
+}
+
+.ratings i {
+  color: #cecece;
+  font-size: 32px;
+}
+
+.rating-color {
+  color: #fbc634 !important;
+}
+
+.review-count {
+  font-weight: 400;
+  margin-bottom: 2px;
+  font-size: 24px !important;
+}
+
+.small-ratings i {
+  color: #cecece;
+}
+
+.review-stat {
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+.footer {
+  background: #0f0f0f;
+  color: #ffffff;
+}
+strong {
+  font-size: 1.2rem;
 }
